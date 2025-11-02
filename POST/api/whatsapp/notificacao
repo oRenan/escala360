@@ -1,0 +1,8 @@
+POST /api/whatsapp/notificacao
+Content-Type: application/json
+Authorization: Bearer <token>
+
+{
+  "telefone": "11999990004",
+  "mensagem": "Olá Daniel Oliveira, você foi solicitado como substituto para o plantão em 02/07/2025 às 14:00."
+}
